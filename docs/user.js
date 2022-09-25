@@ -1,20 +1,8 @@
 
 User =  [
-   
-   Register = {
-         id:1,
-         avatar: "https://chegirma.com/storage/app/uploads/public/5f5/cd5/6a7/thumb_613_250_250_0_0_auto.jpg",
-         name: "Juratbek Xudayberganov",
-         lastname: " Xudayberganov",
-         username: "juratbek",
-         password: "juratali",
-         created_at: "2022-10-09, 20:19",
-         updated_at: "2022-10-09, 20:19"
-   },
 
    Create_order = {
          id: 1,
-         userID: 2,
          productId: 3,
          fullname: "Juratbek Xudayberganov",
          mobile_phone: +998934671270,
@@ -40,6 +28,41 @@ User =  [
       }
    ]
 ]
+
+
+Seller = [
+   
+   Register = {
+      id:1,
+      avatar: "https://chegirma.com/storage/app/uploads/public/5f5/cd5/6a7/thumb_613_250_250_0_0_auto.jpg",
+      name: "Juratbek Xudayberganov",
+      lastname: " Xudayberganov",
+      username: "juratbek",
+      password: "juratali",
+      created_at: "2022-10-09, 20:19",
+      updated_at: "2022-10-09, 20:19"
+   },
+  
+   getProducts= [
+      {
+         id:1,
+         main_image: "https://img/chegirmacom",
+         name: "Blender",
+         cost: 123_000,
+         admin_bonus: 30_000,
+         quantity: 123,
+         ads_link: "https://t.me/chegirmacom/123"
+      }
+   ],
+
+   createFlow = {
+      sellerID: 2,
+      productId: 1,
+      flow_name: "Test uchun",
+   },
+
+]
+
 
 Ceo = [
 
@@ -238,25 +261,3 @@ Ceo = [
    ]
 ]
 
-Seller = [
-  
-   getProducts= [
-      {
-         id:1,
-         main_image: "https://img/chegirmacom",
-         name: "Blender",
-         cost: 123_000,
-         admin_bonus: 30_000,
-         quantity: 123,
-         ads_link: "https://t.me/chegirmacom/123"
-      }
-   ],
-
-   createFlow = {
-      sellerID: 2,
-      productId: 1,
-      flow_name: "Test uchun",
-   },
-
-
-]
